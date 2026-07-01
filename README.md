@@ -53,7 +53,7 @@ Represents relationships between criminals. It enables the system to perform BFS
 
 ## Working of the System
 
-When the application starts, sample criminal records are loaded into the system. Users interact with a menu-driven interface to perform different operations such as adding, deleting, searching, sorting, and displaying records. Criminal relationships are managed using a graph, while the priority queue maintains the highest-risk criminal. The system also generates basic crime statistics and displays the time complexity of implemented operations.
+When the application starts, **five preloaded criminal records** are automatically loaded into the system, allowing users to explore and test its functionality without manually entering data. Users interact with a menu-driven interface to perform operations such as adding, deleting, searching, sorting, and displaying criminal records. Relationships between criminals are represented using a graph, while a priority queue maintains the highest-risk criminal for quick identification. The system also generates crime statistics and displays the time complexity of the implemented algorithms.
 
 ## Technologies Used
 
@@ -74,9 +74,6 @@ When the application starts, sample criminal records are loaded into the system.
 | BFS                      | O(V + E)   |
 | DFS                      | O(V + E)   |
 
-## Learning Outcomes
-
-This project strengthened my understanding of Linked Lists, Arrays, Priority Queues, Graphs, Searching, Sorting, and Graph Traversal algorithms. It also improved my problem-solving skills and demonstrated how multiple data structures can work together to build an efficient application.
 
 ## Future Improvements
 
