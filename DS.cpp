@@ -4,8 +4,6 @@ using namespace std;
 
 #define MAX 100
 
-//STRUCTURES
-
 struct Criminal {
     int id;
     char name[30];
@@ -20,22 +18,18 @@ struct Node {
     Node* next;
 };
 
-//GLOBAL DATA
-
 Node* head = NULL;
 
-//Priority Queue (Most Wanted) 
+//Priority Queue 
 Criminal pq[MAX];
 int pqSize = 0;
 
-//Graph (Adjacency Matrix)
+//Graph 
 int graph[MAX][MAX] = {0};
 
-// Array for Sorting & Searching
+// Array 
 Criminal arr[MAX];
 int arrSize = 0;
-
-// UTILITY 
 
 void line() {
     cout << "\n====================================================\n";
@@ -136,7 +130,7 @@ void copyToArray() {
     }
 }
 
-// Bubble Sort – Remaining Sentence 
+// Bubble Sort 
 void sortByRemaining() {
     copyToArray();
     for (int i = 0; i < arrSize - 1; i++)
@@ -153,7 +147,7 @@ void sortByRemaining() {
              << arr[i].remainingYears << endl;
 }
 
-//Selection Sort – Crimes 
+//Selection Sort
 void sortByCrimes() {
     copyToArray();
     for (int i = 0; i < arrSize - 1; i++) {
