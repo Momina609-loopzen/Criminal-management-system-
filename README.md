@@ -75,14 +75,6 @@ When the application starts, **five preloaded criminal records** are automatical
 | DFS                      | O(V + E)   |
 
 
-## Future Improvements
-
-* Store records using file handling or a database.
-* Add update functionality for existing records.
-* Implement user authentication.
-* Develop a graphical user interface (GUI).
-* Add advanced search and reporting features.
-
 ## Conclusion
 
 The Criminal Management System successfully demonstrates the practical implementation of fundamental Data Structures and algorithms in C++. By combining multiple data structures within a single application, the project provides an efficient solution for managing criminal records while reinforcing the core concepts learned in the Data Structures course.
